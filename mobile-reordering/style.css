@@ -125,5 +125,17 @@ section, footer {
     display: flex;
   }
 
+  .top {
+    order: 2;
+  }
+
+  .details {
+    order: 3;
+  }
+
+  .signup {
+    order: 4;
+  }
+
 
 }

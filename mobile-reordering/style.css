@@ -121,5 +121,9 @@ section, footer {
     display: none;
   }
 
+  .flex-nav ul.open {
+    display: flex;
+  }
+
 
 }

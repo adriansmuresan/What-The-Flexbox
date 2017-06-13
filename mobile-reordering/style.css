@@ -93,4 +93,25 @@ section, footer {
 
 @media all and (max-width:500px) {
   
+  .flex-nav li {
+    flex-basis: 100%;
+  }
+
+/* Flex container*/
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Flex item*/
+
+  .wrapper > * {
+    order: 9999;
+  }
+
+  .flex-nav {
+    order: 1;
+  }
+
+
 }
